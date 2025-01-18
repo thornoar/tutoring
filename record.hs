@@ -79,14 +79,3 @@ main = do
   printMoney "Received:" transferredHKD
   printMoney "Given:" givenHKD
   printMoney "Balance:" (haveNowHKD - totalMoneyHKD)
-
-  -- putStr "Payroll, HKD: "
-  -- print totalMoneyHKD
-  -- putStr "Payroll, USD: "
-  -- print $ hkd2usd totalMoneyHKD
-  -- putStr "Received, HKD: "
-  -- print $ hkd2usd totalMoneyHKD
-  -- putStr "Total money due, HKD: "
-  -- print $ totalMoneyHKD - haveNowHKD
-  -- putStr "Total money due, USD: "
-  -- print $ hkd2usd $ totalMoneyHKD - haveNowHKD
