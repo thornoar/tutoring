@@ -24,10 +24,10 @@ printMoney msg amt = do
   putStrLn $ show amt ++ " HKD = " ++ show (amt / oneUSD) ++ " USD."
 
 transferredHKD :: Float
-transferredHKD = 500.0 + 200.0 * oneEUR + 157.26 * oneUSD + 190.0 * oneUSD
+transferredHKD = 500.0 + 200.0 * oneEUR + 157.26 * oneUSD + 190.0 * oneUSD + 200.0 * oneEUR
 
 givenHKD :: Float
-givenHKD = 100.0 * oneUSD + 90.0 * oneUSD
+givenHKD = 100.0 * oneUSD + 90.0 * oneUSD + 100.0 * oneEUR
 
 haveNowHKD :: Float
 -- haveNowHKD = 500.0 + 200.0 * oneEUR + 157.26 * oneUSD - 100.0 * oneUSD + 190.0 * oneUSD - 90.0 * oneUSD
